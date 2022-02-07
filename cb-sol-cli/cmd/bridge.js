@@ -92,7 +92,6 @@ const queryResourceId = new Command("query-resource")
 const bridgeCmd = new Command("bridge")
 
 bridgeCmd.addCommand(registerResourceCmd)
-bridgeCmd.addCommand(registerGenericResourceCmd)
 bridgeCmd.addCommand(setBurnCmd)
 bridgeCmd.addCommand(queryIsBurnCmd)
 bridgeCmd.addCommand(cancelProposalCmd)
