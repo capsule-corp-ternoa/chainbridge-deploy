@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const {Command} = require('commander');
+const { Command } = require('commander');
 const program = new Command();
 
 // Comands
@@ -9,8 +9,6 @@ const {
     bridge,
     admin,
     erc20,
-    erc721,
-    centrifuge,
 } = require('./cmd/index');
 const constants = require('./constants');
 
@@ -27,8 +25,6 @@ program.addCommand(deploy)
 program.addCommand(bridge)
 program.addCommand(admin)
 program.addCommand(erc20)
-program.addCommand(erc721)
-program.addCommand(centrifuge)
 
 program.allowUnknownOption(false);
 
