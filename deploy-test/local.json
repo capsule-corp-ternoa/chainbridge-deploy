@@ -1,20 +1,20 @@
 {
-  "source" : {
+  "source": {
     "privateKey": "000000000000000000000000000000000000000000000000000000616c696365",
     "type": "ethereum",
     "endpoint": "ws://localhost:8545",
     "chainId": 1,
     "bridge": "0x62877dDCd49aD22f5eDfc6ac108e9a4b5D2bD88B",
-    "erc20": "0x21605f71845f372A9ed84253d2D024B7B10999f4",
+    "erc20": "0x3f709398808af36ADBA86ACC617FeB7F5B7B193E",
     "erc20Handler": "0x3167776db165D8eA0f51790CA2bbf44Db5105ADF"
   },
-  "destination" : {
+  "destination": {
     "privateKey": "000000000000000000000000000000000000000000000000000000616c696365",
     "type": "ethereum",
     "endpoint": "ws://localhost:8546",
     "chainId": 2,
     "bridge": "0x62877dDCd49aD22f5eDfc6ac108e9a4b5D2bD88B",
-    "erc20": "0x21605f71845f372A9ed84253d2D024B7B10999f4",
+    "erc20": "0x3f709398808af36ADBA86ACC617FeB7F5B7B193E",
     "erc20Handler": "0x3167776db165D8eA0f51790CA2bbf44Db5105ADF"
   },
   "tests": [
@@ -39,4 +39,3 @@
   ],
   "iterations": 3
 }
-
