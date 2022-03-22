@@ -1,9 +1,9 @@
-SOL_URL=https://github.com/ChainSafe/chainbridge-solidity
-SOL_VERSION="v1.0.0"
+SOL_URL=https://github.com/capsule-corp-ternoa/chainbridge-solidity
+SOL_BRANCH="ternoa"
 
 fetch-contracts:
 	@echo " > \033[32mFetching chainbridge-solidity contracts... \033[0m "
-	git clone ${SOL_URL} && cd chainbridge-solidity && git checkout ${SOL_VERSION}
+	git clone ${SOL_URL} && cd chainbridge-solidity && git checkout ${SOL_BRANCH}
 
 compile:
 	cd chainbridge-solidity && npm install && npx truffle compile
